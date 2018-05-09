@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta http-equiv="refresh" content="30">    <meta charset = "utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel = "stylesheet" type="text/css" href = "main.css">
+    <script type = "text/javascript" src = "twitch.js"></script>
+    
+</head>
+<body>
+<div id= "top-header" class = "row">
+  <div class = "col-xs-12">
+    <img class = "topimg" src = "https://s3-us-west-2.amazonaws.com/s.cdpn.io/1750402/twitch-logo%20colored.png" alt = "twitch-logo">
+    <div >
+    <h1 id = "headline"> 
+     Top 10 Twitch Streams Live NOW </br>
+     Refreshes every 30 seconds
+    </h1>
+    </div>
+  </div>
+</div>
+<div id = streamer_list>
+  <div class = "row">
+    <div id = "stream0" class = "col-xs-5">
+      <button  type = "button" class = "btn" target="_blank"> <a id = "button0" href='' target = "_blank"> Watch Now!</a></button>
+      <div class = "streamername">
+      <h3 id = "streamer0">Streamer Name</h3>
+      </div>
+      <div class = "game-title" id = "game0">Placeholder</div>
+      <div class = "viewers" id = "viewers0">Viewer Count</div>
+     </div>   
+    <div class = "col-xs-1">
+      <img id = "thumbnail0">  
+    </div>  
+    <div id = "stream1" class = "col-xs-5">
+      <button  type = "button" class = "btn" target="_blank"> <a id = "button1" href='https://twitch.tv/ninja' target = "_blank"> Watch Now!</a></button>
+      <div class = "streamername">
+      <h3 id = "streamer1">Streamer Name</h3>
+      </div>
+      <div class = "game-title" id = "game1">Placeholder</div>
+      <div class = "viewers" id = "viewers1">Viewer Count</div>
+    </div>
+    <div class = "col-xs-1">
+      <img id = "thumbnail1">  
+    </div>  
+  </div>
+  <div class = "row">
+    <div id = "stream2" class = "col-xs-5">
+      <button  type = "button" class = "btn" target="_blank"> <a id = "button2" href='' target = "_blank"> Watch Now!</a></button>
+      <div class = "streamername">
+      <h3 id = "streamer2">Streamer Name</h3>
+      </div>
+      <div class = "game-title" id = "game2">Placeholder</div>
+      <div class = "viewers" id = "viewers2">Viewer Count</div>
+    </div>   
+    <div class = "col-xs-1">
+      <img id = "thumbnail2">  
+    </div>  
+    <div id = "stream3"  class = "col-xs-5">
+      <button  type = "button" class = "btn" target="_blank"> <a id = "button3" href='' target = "_blank"> Watch Now!</a></button>
+      <div class = "streamername">
+      <h3 id = "streamer3">Streamer Name</h3>
+      </div>
+      <div class = "game-title" id = "game3">Placeholder</div>
+      <div class = "viewers" id = "viewers3">Viewer Count</div>
+    </div>
+    <div class = "col-xs-1">
+      <img id = "thumbnail3">  
+    </div>  
+  </div>
+  <div class = "row">
+    <div id = "stream4" class = "col-xs-5">
+      <button  type = "button" class = "btn" target="_blank"> <a id = "button4" href='' target = "_blank"> Watch Now!</a></button>
+      <div class = "streamername">
+      <h3 id = "streamer4">Streamer Name</h3>
+      </div>
+      <div class = "game-title" id = "game4">Placeholder</div>
+      <div class = "viewers" id = "viewers4">Viewer Count</div>
+    </div>   
+    <div class = "col-xs-1">
+      <img id = "thumbnail4">  
+    </div>  
+    <div id = "stream5" class = "col-xs-5">
+      <button  type = "button" class = "btn" target="_blank"> <a id = "button5" href='' target = "_blank"> Watch Now!</a></button>
+      <div class = "streamername">
+      <h3 id = "streamer5">Streamer Name</h3>
+      </div>
+      <div class = "game-title" id = "game5">Placeholder</div>
+      <div class = "viewers" id = "viewers5">Viewer Count</div>
+    </div>
+    <div class = "col-xs-1">
+      <img id = "thumbnail5">  
+    </div>  
+  </div>
+  <div class = "row">
+    <div id = "stream6"  class = "col-xs-5">
+      <button  type = "button" class = "btn" target="_blank"> <a id = "button6" href='' target = "_blank"> Watch Now!</a></button>
+      <div class = "streamername">
+      <h3 id = "streamer6">Streamer Name</h3>
+      </div>
+      <div class = "game-title" id = "game6">Placeholder</div>
+      <div class = "viewers" id = "viewers6">Viewer Count</div>
+    </div>   
+    <div class = "col-xs-1">
+      <img id = "thumbnail6">  
+    </div>  
+    <div id = "stream7" class = "col-xs-5">
+      <button  type = "button" class = "btn" target="_blank"> <a id = "button7" href='' target = "_blank"> Watch Now!</a></button>
+      <div class = "streamername">
+      <h3 id = "streamer7">Streamer Name</h3>
+      </div>
+      <div class = "game-title" id = "game7">Placeholder</div>
+      <div class = "viewers" id = "viewers7">Viewer Count</div>
+    </div>
+    <div class = "col-xs-1">
+      <img id = "thumbnail7">  
+    </div>  
+  </div>
+  <div class = "row">
+    <div id = "stream8" class = "col-xs-5">
+      <button  type = "button" class = "btn" target="_blank"> <a id = "button8" href='' target = "_blank"> Watch Now!</a></button>
+      <div class = "streamername">
+      <h3 id = "streamer8">Streamer Name</h3>
+      </div>
+      <div class = "game-title" id = "game8">Placeholder</div>
+      <div class = "viewers" id = "viewers8">Viewer Count</div>
+    </div>   
+    <div class = "col-xs-1">
+      <img id = "thumbnail8">  
+    </div>  
+    <div id = "stream9" class = "col-xs-5">
+      <button  type = "button" class = "btn" target="_blank"> <a id = "button9" href='' target = "_blank"> Watch Now!</a></button>
+      <div class = "streamername">
+      <h3 id = "streamer9">Streamer Name</h3>
+      </div>
+      <div class = "game-title" id = "game9">Placeholder</div>
+      <div class = "viewers" id = "viewers9">Viewer Count</div>
+    </div>
+    <div class = "col-xs-1">
+      <img id = "thumbnail9">  
+    </div>  
+  </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,116 @@
+body{
+  background-color: #6441a5;
+  width: 1400px;
+  margin: 0 auto;
+  background-image: url("http://wallpaper-gallery.net/images/metal-wallpaper/metal-wallpaper-1.jpg") ;
+
+}
+
+#top-header{
+  margin-top: 20px;
+  text-align: center;
+  border: 2px black solid;
+  background-color: #6441a5;
+  color: white;
+  text-shadow: 3px 0px 4px black;
+}
+.topimg{
+  text-align: center;
+  max-width: 40%;
+  height: auto;
+  
+}
+
+#headline{
+  font-size: 24px;
+  margin-top: -10px;
+}
+
+.btn{
+  float: right;
+  background-color: #6441a5;
+  color: white;
+  margin-top: 1%;
+}
+.col-xs-5{
+position: relative;
+border: 2px black solid;
+color: white;
+background: rgba(0,0,0,0.4);
+height: 114px;
+}
+.col-xs-5 bg{
+  position: absolute;
+  border: 2px black solid;
+  color: white;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+.col-xs-1{
+  display: block;
+  border: 2px black solid;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0px;
+  padding: 0px;
+  background-color: black;
+}
+
+#streamer_list h3 {
+  position: relative;
+  text-align: left;
+  font-size: x-large;
+  text-shadow: 3px 0px 4px black;
+  
+}
+.h3{
+  display: inline-block;
+  position: absolute;
+  background-color: grey;
+ 
+}
+.streamername{
+  display: inline-block;
+  float: left;
+  padding: 0 5px 0 5px;
+  margin-top: 5px;
+  background: rgba(128,128,128, 0.6)
+}
+.viewers{
+  text-align: center;
+  font-size: small;
+  color: white;
+  text-shadow: 1px 0px 4px black;
+  width: 30%;
+  float: right;
+  margin-top: 25px;
+  background: rgba(128,128,128, 0.6)
+
+}
+.game-title{
+  clear: both;
+  display: inline-block;
+  float: left;
+  font-size: large;
+  text-shadow: 2px 2px black;
+  margin-left: 5px;
+  margin-top: 20px;
+  background: rgba(128,128,128, 0.6);
+  padding: 0 10px 0 10px;
+}
+#streamer_list img{
+  display: block;
+  max-width: 95%;
+  max-height: auto;
+}
+a { 
+color: white;
+}
+a:hover{
+  color: white;
+  text-decoration: none;
+}
+.btn:hover{
+  transform: scale(1.1);
+}
