@@ -46,7 +46,9 @@ function userNames(){
       document.getElementById("streamer"+ j).innerHTML = j+1 + ") "+ result.data[j].display_name; //print display name to screen
           
       document.getElementById("button"+j).href = buttonLink[j]; //add URLs to href for Watch Now buttons
-      document.getElementById("thumbnail"+j).src = result.data[j].profile_image_url; //add User Profile Images to page
+      document.getElementById("thumbnail"+j).style.backgroundImage = "url{"+result.data[j].profile_image_url+")";
+
+      document.getElementById("thumbnail"+j).src = result.data[j].profile_image_url; //add User Profile Images to page*/
         }
       
       }

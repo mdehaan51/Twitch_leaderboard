@@ -6,6 +6,7 @@ body{
 
 }
 
+
 #top-header{
   margin-top: 20px;
   text-align: center;
@@ -32,12 +33,19 @@ body{
   color: white;
   margin-top: 1%;
 }
+.row{
+  position: relative;
+  padding-right: 0px;
+  padding-left: 0px;
+  overflow: hidden;
+}
+
 .col-xs-5{
 position: relative;
 border: 2px black solid;
 color: white;
 background: rgba(0,0,0,0.4);
-height: 114px;
+height: 116px;
 }
 .col-xs-5 bg{
   position: absolute;
@@ -48,7 +56,8 @@ height: 114px;
 }
 
 .col-xs-1{
-  display: block;
+  position: relative;
+  height: 116px;
   border: 2px black solid;
   text-align: center;
   vertical-align: middle;
@@ -99,10 +108,21 @@ height: 114px;
   background: rgba(128,128,128, 0.6);
   padding: 0 10px 0 10px;
 }
+
+.playerimg{
+   
+}
+
 #streamer_list img{
-  display: block;
-  max-width: 95%;
-  max-height: auto;
+  position: relative
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0 auto;
+  max-width: 116px;
+  max-height: 116px;
+
 }
 a { 
 color: white;
